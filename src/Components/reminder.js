@@ -22,7 +22,7 @@ export default function Reminder(props) {
       setShowInfo(true);
     }
   };
-
+    // set reminder date
     const handleDateUpdate = (e) => {
         setDate(e.target.value);
     }
