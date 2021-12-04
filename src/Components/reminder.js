@@ -9,7 +9,7 @@ export default function Reminder(props) {
   const [date, setDate] = useState();
   const [expandTime, setExpandTime] = useState(false);
 
-
+  // complete a reminder
   const handleComplete = () => {
     props.completeReminder(props.time);
   };
