@@ -14,6 +14,7 @@ export default function Reminder(props) {
     props.completeReminder(props.time);
   };
 
+  // handle when user edits the reminder
   const handleEdit = (e) => {
     setContent(e.target.value);
     props.editContent(e.target.value, props.time);
